@@ -10,9 +10,10 @@ class vehicule
 
     protected int $nbWheels = 2;
 
-    public function __construct(string $color)
+    public function __construct(string $color,int $nbSeats)
 {
     $this->color = $color;
+    $this->color =$nbSeats;
 }
 
 public function forward(): string

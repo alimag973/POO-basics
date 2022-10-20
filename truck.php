@@ -8,7 +8,7 @@ class truck extends Vehicle
     private int $loading = 0;
 
 
-public function __construct(int $torageCapacity, string $color, string $energy, int $nbSeat)
+public function __construct(string $color, int $nbSeats, string $energy, int $torageCapacity)
 {
    parent ::__construct($color, $nbseats);
    $tihs->energy = $energy;
