@@ -2,10 +2,10 @@
 
  <?php
 
-require './vehicle.php';
-require_once 'Bicycle.php';
-require_once 'car.php';
-require './truck.php';
+require './Vehicle.php';
+require_once './Bicycle.php';
+require_once './Car.php';
+require './Truck.php';
 
 $bike = new Bicycle('blue',1);
 $car = new Car('green',5,'regular');
